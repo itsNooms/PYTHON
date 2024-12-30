@@ -1,15 +1,50 @@
-#1. How to read and write in Python
-print(5 + 10)
-print(3 * 7, (17 - 2) * 8)
-print(2 ** 16)  # two stars are used for exponentiation (2 to the power of 16)
-print(37 / 3)  # single forward slash is a division
-print(37 // 3)  # double forward slash is an integer division
-        # it returns only the quotient of the division (i.e. no remainder)
-print(37 % 3)  # percent sign is a modulus operator
-        # it gives the remainder of the left value divided by the right value
+#Sum of three numbers
+a = int(input())
+b = int(input())
+c = int(input())
+print(a + b +c)
 
+#Hi John
+a = input()
+print('Hi', a)
 
+#Square
+a = int(input())
+print(a * a)
 
-print('What is your name?')
-name = input()  # read a single line and store it in the variable "name"
-print('Hi ' + name + '!')
+#Area of right-angled triangle
+b = int(input())
+h = int(input())
+print(0.5 * b * h)
+
+#Hello, Harry!
+print('Hello,' + ' ' + input() + '!')
+
+#Apple sharing
+n = int(input())
+m = int(input())
+print(int(m / n))
+print(int(m % n))
+
+#Previous and next
+a=int(input())
+print('The next number for the number'+' '+str(a)+' '+'is'+' '+str(a+1))
+print('The previous number for the number'+' '+str(a)+' '+'is'+' '+str(a-1))
+
+#Two timestamps
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+f=int(input())
+print((d*3600+e*60+f)-(a*3600+b*60+c))
+
+#School desks
+a=int(input())
+b=int(input())
+c=int(input())
+m=int((a+1)/2)
+n=int((b+1)/2)
+o=int((c+1)/2)
+print(m+n+o)
