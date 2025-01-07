@@ -1,3 +1,5 @@
+##Conditions: if, then, else
+
 #Minimum of two numbers
 a=int(input())
 b=int(input())
