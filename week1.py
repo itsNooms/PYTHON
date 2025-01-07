@@ -1,3 +1,5 @@
+Input, print and numbers
+
 #Sum of three numbers
 a = int(input())
 b = int(input())
