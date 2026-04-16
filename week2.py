@@ -2,7 +2,7 @@
 
 #Last digit of integer
 a=int(input())
-print(a%10
+print(a%10)
 
 #Tens digit
 n = int(input())
